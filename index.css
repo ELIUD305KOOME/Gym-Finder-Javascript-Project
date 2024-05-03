@@ -1,6 +1,7 @@
 .nav-header {
     background-color: #333;
     overflow: hidden;
+    padding: 10px;
 }
 
 .links li {
@@ -11,7 +12,7 @@
 
 .links a {
     color: #fff;
-    font-size: 25px;
+    font-size: 1rem;
     text-transform: capitalize;
     display: flex;
     padding: 0.5rem 1rem;
@@ -22,6 +23,7 @@
 .links a:hover {
     background: burlywood;
     background-color: green;
+    padding-left: 1.5rem;
 }
 
 #introDiv {
@@ -30,42 +32,6 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     color: #000000;
-    text-decoration: underline;
-}
-
-#gymForm {
-    max-width: 350px;
-    padding: 20px;
-    background-color: green;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-#gymForm input[type="text"],
-input[type="number"],
-input[type="url"] {
-    width: 80%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 14px;
-}
-
-#gymForm input[type="text"]:focus,
-input[type="number"]:focus,
-input[type="url"]:focus {
-    outline: none;
-    border-color: #007bff;
-}
-
-#gymForm button {
-    padding: 7px;
-    border-radius: 4px;
-}
-
-#gymForm button[type="submit"]:hover {
-    background-color: #0056b3;
 }
 
 #mainUl {
@@ -83,7 +49,6 @@ input[type="url"]:focus {
     justify-content: center;
     display: inline-block;
 }
-
 
 footer {
     background-color: #333;
@@ -147,4 +112,79 @@ footer {
 .copyright {
     padding: 30px;
     font-size: 16px;
+}
+
+
+/* Style for Add button */
+button.add-button {
+    background-color: greenyellow; 
+    border: none;
+    color: white; 
+    padding: 10px 20px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 4px;
+  }
+  
+  /* Hover effect for Add button */
+  button.add-button:hover {
+    background-color: gold; 
+  }
+  
+  /* Style for Remove button */
+  button.remove-button {
+    background-color: #f44336; 
+    border: none;
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+  }
+  
+  /* Hover effect for Remove button */
+  button.remove-button:hover {
+    background-color: #d32f2f; 
+  }
+  #gymForm {
+    max-width: 350px;
+    padding: 20px;
+    background-color: green;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#gymForm input[type="text"],
+input[type="number"],
+input[type="url"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#gymForm input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="url"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+#gymForm button {
+    padding: 7px;
+    border-radius: 4px;
+}
+
+#gymForm button[type="submit"]:hover {
+    background-color: #0056b3;
 }
